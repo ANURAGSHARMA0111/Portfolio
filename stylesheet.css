@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    background-image: linear-gradient(#033747, #012733);
+
+}
+nav .logo p{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+nav ul{
+    float: right;
+    
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+
+nav li a{
+    font-size:  18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+}
+nav li a:hover{
+    color: #ff8c69;
+    transition: all 0.4s ease  0s;
+}
+.content-items img{
+    width: -50%;
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+    align-items: flex-end;
+    justify-content: right;
+    width: 15%;
+    cursor: pointer;
+    clip-rule: nonzero;
+    position: absolute;
+    
+    left: 1000px;
+    right: 0%;
+    background-color: cyan;
+    transform: rotateX('angle'); 
+    justify-content: flex-end;
+    justify-content: right;
+    justify-content: space-around;
+    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+
+}
+.content-items img{
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.content-items img{
+    filter: grayscale();
+    transition: .3s;
+}
+
+.content-items img:hover{
+filter: grayscale();
+transform: scale(1.3) rotate(7deg);
+} 
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+.home{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 140px;
+    align-items:center ;
+    justify-items: center;
+}
+
+.home-content h3{
+    font-size: 3.2rem;
+    font-weight: 700;
+
+
+}
+.home-content h1{
+   font-size: 5.6rem;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: 700;
+
+   
+}
+
+.home-content :hover{
+    filter: grayscale();
+    transform: scale(1.3) rotate(7deg);
+    } 
+.home-content p{
+    font-size: 1.6rem;
+}
+.social-media{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: .2rem solid var(--main-color);
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--main-color)
+    ;
+    margin: 3rem 1.5rem 3rem 0;
+}
